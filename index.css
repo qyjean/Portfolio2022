@@ -1,0 +1,78 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    box-sizing: border-box;  
+}
+/* text-align center과 justify-content center, align-items center의 차이는 뭘까 */
+
+body{
+    margin: 0px;
+    /* height: auto; */
+    /* min-height: 200%; */
+}
+/* *에서 margin:0px를 주는 것과 나타나는 결과 다르다. */
+
+h1{
+    font-family: 'Rubik Beastly', cursive;
+    font-size: 45px;
+    margin: 0px;
+}
+
+h4{
+    padding: 10px 0px;
+    font-family: 'Playfair Display', serif;
+}
+
+.icon{
+    justify-content: end;
+}
+
+nav ul{
+    border: solid 1px lightslategray;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+
+.hello{
+    margin: 50px 0px;
+    font-weight: 320;
+}
+
+.introduce{
+   margin: 0px 400px 150px;
+   font-weight: 100;
+   line-height: 30px;
+}
+
+footer {
+    padding: 5px 0px;
+    background-color: #1c1c1e;
+    color: #ffffff;
+    font-weight: 100;
+  }
+  
+  .footer_content {
+    width: 30%;
+    margin: 0 auto;
+    text-align: right;
+  }
+  
+  .footer_content h1 {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .footer_content ul li {
+    list-style: none;
+    line-height: 30px;
+  }
+
+
